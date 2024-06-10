@@ -1,4 +1,4 @@
-document.addEventListener('content', handlerContent);
+document.addEventListener('DOMContentLoaded', handlerContent);
 
 function handlerContent() {
     const nameInput = document.getElementById('name-input');
@@ -11,4 +11,3 @@ function handlerContent() {
     }
 }
 
-console.log(handlerContent());

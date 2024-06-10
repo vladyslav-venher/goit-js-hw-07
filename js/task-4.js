@@ -1,4 +1,4 @@
-document.addEventListener('content', handlerContent);
+document.addEventListener('DOMContentLoaded', handlerContent);
 function handlerContent() {
     let loginForm = document.querySelector('.login-form');
     
@@ -24,4 +24,3 @@ function handlerContent() {
         loginForm.reset();  
   };
 };
-console.log(handlerContent());

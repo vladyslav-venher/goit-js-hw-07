@@ -4,7 +4,7 @@ function getRandomHexColor() {
     .padStart(6, 0)}`;
 }
 
-document.addEventListener('content', handlerContent);
+document.addEventListener('DOMContentLoaded', handlerContent);
 function handlerContent(){
   const body = document.body;
   const colorSpan = document.querySelector('.color');
@@ -19,4 +19,3 @@ function handlerContent(){
   changeColorButton.addEventListener('click', changeBackgroundColor);
 };
 
-console.log(handlerContent());

@@ -4,7 +4,7 @@ function getRandomHexColor() {
     .padStart(6, 0)}`;
 }
 
-document.addEventListener('content', handlerContent);
+document.addEventListener('DOMContentLoaded', handlerContent);
 function handlerContent(){
   const controls = document.getElementById('controls');
   const input = controls.querySelector('input');
@@ -43,4 +43,3 @@ function handlerContent(){
     boxesContainer.appendChild(fragment);
   }
 };
-console.log(handlerContent());
